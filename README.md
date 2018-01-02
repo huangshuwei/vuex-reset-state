@@ -17,7 +17,9 @@ npm install
 npm run dev
 ```
 
-效果
+### 效果展示
+当切换路由时，将上个路由的状态重置
+
 ![reset](./reset.gif)
 
 
