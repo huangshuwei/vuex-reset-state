@@ -12,10 +12,12 @@
 npm install
 ```
 
-运行起来看效果
+运行
 ```
 npm run dev
 ```
 
+效果
+![reset](./reset.gif)
 
 
