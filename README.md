@@ -5,5 +5,17 @@
 
 具体介绍请参考[我的文章](https://github.com/huangshuwei/blog/issues/11)
 
+### 使用
+
+安装
+```
+npm install
+```
+
+运行起来看效果
+```
+npm run dev
+```
+
 
 
