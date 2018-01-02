@@ -1,1 +1,3 @@
-"# vuex-reset-state" 
+### 重置 vuex 中的状态
+
+
