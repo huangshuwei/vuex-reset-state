@@ -6,6 +6,8 @@ import mutations from "./mutations";
 import state from './state'
 import createLogger from 'vuex/dist/logger'
 
+// 将vuex注入到实例中
+Vue.use(Vuex);
 
 import page1 from "./modules/page1.js";
 import page2 from "./modules/page2.js";
@@ -13,17 +15,12 @@ import page3 from "./modules/page3.js";
 import page4 from "./modules/page4.js";
 import page5 from "./modules/page5.js";
 
-
-// 将vuex注入到实例中
-Vue.use(Vuex);
-
-
 export default new Vuex.Store({
     state,
     getters,
     actions,
     mutations,
-    modules: {
+    modules: { // 每个路由对应的 module
         page1,
         page2,
         page3,
