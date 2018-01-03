@@ -67,12 +67,6 @@
     import {mapState, mapActions} from "vuex"
     export default{
 
-        data(){
-
-            return {
-                memoryInfo: null
-            }
-        },
         methods: {
 
             ...mapActions({
@@ -84,7 +78,7 @@
 
             $route(to, from) {
 
-                this.resetStates({name: '123'});
+                this.resetStates();
             }
         }
     }
